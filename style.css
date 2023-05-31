@@ -1,0 +1,64 @@
+
+#container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(217, 218, 217));
+}
+#searchbar{
+    position: relative;
+    bottom: 200px;
+    width: 460px;
+    margin-left: 5px;
+}
+#add{
+    position: relative;
+    bottom: 200px;
+    cursor:pointer;
+}
+#add:hover{
+    transform:scale(1.3);
+}
+#search{
+    position: relative;
+    bottom: 200px;
+    cursor:pointer;
+}
+#search:hover{
+    transform:scale(1.3);
+}
+table{
+    height: 430px;
+    margin-top: 55px;
+    position: absolute;
+    padding: 3px;
+    display: inline-block;
+    overflow: hidden;
+}
+td {
+    padding: 5px;
+}
+tr{
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+    display: block;
+}
+.content{
+    width: 444px;
+    max-width:444px ;
+    overflow: hidden;
+}
+.bc:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+body{
+    background-image: linear-gradient(to right, rgb(78, 77, 77), rgb(0, 0, 0));
+}
+
